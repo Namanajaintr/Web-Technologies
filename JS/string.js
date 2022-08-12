@@ -45,3 +45,4 @@ console.log(substring);
 var email = "             megha@gmail.com     ";
 console.log(email);
 console.log(email.trim());
+// megha@gmail.com-left and right trim
