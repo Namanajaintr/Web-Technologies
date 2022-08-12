@@ -1,0 +1,54 @@
+#div1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+#div2{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+#div3{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+
+.imgdiv{
+    width: 1000px;
+    display: flex;
+    height: 1000px;
+
+}
+
+.p1{
+    float: auto;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+}
+
+/* Attribute selector */
+img[alt="image"]{
+    border-radius: 70%;
+    width: 200px;
+    height: 100px;
+}
+/* Universal selector */
+*{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+

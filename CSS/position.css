@@ -1,0 +1,22 @@
+.navbar{
+    overflow: hidden;
+    background-color: aquamarine;
+   
+}
+nav{
+    position: sticky;
+    top: 5px;
+}
+
+.navbar a{
+    color: brown;
+    text-align: justify;
+    padding: 14px 16;
+    margin: 20px;
+}
+/* sudo selector */
+.navbar a:hover{
+    background-color: azure;
+    color: black;
+}
+

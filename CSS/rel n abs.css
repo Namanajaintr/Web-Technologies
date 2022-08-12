@@ -1,0 +1,47 @@
+.box{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+
+}
+
+/*FIXED-remains stucked to the position the page is scrolled */
+#id1{
+    position: fixed;
+    background-color: aqua;
+}
+
+/* STICKY- it is an hybrid of abs and fixed */
+#id3{
+    position: sticky;
+    top: 50px;
+    background-color: palevioletred;
+}
+
+/* RELATIVE- takes top left right bottom wrt original position */
+#id2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+}
+
+/* ABSOLUTE- takes top left right bottom wrt parent element */
+#id4{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: brown;
+}
+
+/* STATIC- default */
+#id5{
+    position: static;
+}
+
+.container{
+    border: 2px solid black;
+    height: 2000px;
+}
+
