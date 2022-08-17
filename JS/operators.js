@@ -75,8 +75,14 @@ const data = {
 };
 console.log(typeof data); //object
 
+console.log(typeof false); // boolean
+
 const arr = [1, 2, 45, 7999];
 console.log(typeof arr); //object
+
+console.log(typeof NaN); // number
+
+console.log(typeof function () {}); // function
 
 // CONCATINATION OPERATOR
 

@@ -1,3 +1,6 @@
+// OBJECT
+// reference type - mutable
+
 var name = "mega";
 // there are two ways to create your objects
 // objects are the collection of the key and value pairs

@@ -1,4 +1,5 @@
 // STRING METHODS
+// primtive type - immutable
 
 var str = "plants and nature";
 str.toUpperCase();

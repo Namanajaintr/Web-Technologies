@@ -53,9 +53,3 @@ const fulldate2 = datspam.toLocaleDateString("en-us", {
   day: "2-digit",
 });
 console.log(fulldate2);
-
-// looping FOR LOOP
-let person = ["Avi", 90, "30/july/2000"];
-for (let i = 0; i < person.length; i++) {
-  console.log(person[i]);
-}
