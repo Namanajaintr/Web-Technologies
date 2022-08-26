@@ -1,4 +1,4 @@
-let url = "https://jsonplaceholder.typicode.com/todos";
+let url = "http://www.omdbapi.com/?s=%22hello%22&apikey=f056e2f7";
 
 let fetchfunc = () => {
   fetch(url)

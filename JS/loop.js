@@ -92,7 +92,7 @@ let persons = {
   phNumber: 123456789,
 };
 
-// for in loop we use VALUE for an OBJECT
+// for in loop we use key for an OBJECT
 for (let key in persons) {
   //   console.log(key);
   console.log(`${key}-${persons[key]}`);
