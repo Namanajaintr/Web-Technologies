@@ -1,0 +1,54 @@
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: palevioletred;
+  border: 2px solid black;
+  display: flex;
+}
+.d1 {
+  background-color: blue;
+  width: 250px;
+  height: 500px;
+}
+.d2 {
+  background-color: greenyellow;
+  width: 250px;
+  height: 500px;
+}
+.main0 {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  /* display: flex; */
+}
+.main1 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+}
+.main2 {
+  width: 500px;
+  height: 250px;
+  display: flex;
+}
+.d11 {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+.d22 {
+  background-color: greenyellow;
+  width: 100%;
+  height: 100%;
+}
+
+.d33 {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100%;
+}
+.d44 {
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+}
