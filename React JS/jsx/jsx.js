@@ -1,4 +1,4 @@
-// jsx
+// jsx - easier to create an Html element in Js
 // javascript xml
 // js compiler named babel translates jsx code into browser understandable code
 

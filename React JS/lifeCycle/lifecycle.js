@@ -1,17 +1,20 @@
 // 1. MOUNTING PHASE - Executes only once
-// 1.1 componentDidMount() - executes all methods for the first tym mounting to real dom
-// used to make side effects to the component
-// you can make payment gateways, API calls, subscribing, unscribing  in this method
+// 1.1 componentDidMount()
 // 1.2 constructor()
 // 1.3 getDerivedStateFromProps()
 // 1.4 render()
 
 class Parent extends React.Component {
   componentDidMount() {
+    // executes all methods for the first tym mounting to real dom
+    // whenever there is error all methods executes except componentDidMount()
+    // So used to make side effects to the component on successful exection without any errors
+    // So you can make business logic, payment gateways, API calls, subscribing, unscribing  in this method
     console.log("Parent componentDidMount executed");
   }
 
   constructor() {
+    // executes frst in react , initialization and binding of states
     super();
     this.state = {
       text: "Mounting Phase",
@@ -21,14 +24,15 @@ class Parent extends React.Component {
   }
 
   static getDerivedStateFromProps(props, state) {
-    // it returns the state or if there no change in the state then returns null
+    // it returns the newstate or null when there change in the state
     console.log("Parent getDerivedStateFromProps executed");
     return state;
   }
 
   render() {
+    // renders the data to Real DOM
     // In render method we should update anything
-    // we should not perform any side effects
+    // we should not perform any side effects or business logics
     // If tries to update it goes to infinite loop
     console.log("Parent render executed");
     return (
@@ -82,9 +86,10 @@ class Parent extends React.Component {
 
 class Child extends React.Component {
   render() {
-    return <div>Child Component</div>;
+    return <div>Child Component Unmountes</div>;
   }
   componentWillUnmount() {
+    alert("The component is about to be unmounted.");
     console.log("child componentWillUnmount executed");
   }
 }

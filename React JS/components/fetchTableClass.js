@@ -34,6 +34,7 @@ class Fetch extends React.Component {
                 border: "2px solid black",
                 width: "100%",
                 backgroundColor: "orange",
+                borderCollapse: "collapse",
               }}
             >
               <tr>

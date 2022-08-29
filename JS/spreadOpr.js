@@ -1,5 +1,6 @@
-// SPREAD OPERATOR
 // ...MAGICAL DOTS
+// 1. SPREAD OPERATOR - take a copy
+// 2. REST OPERATOR - no. of args
 
 // REST OPERATOR
 function add(a, b) {
