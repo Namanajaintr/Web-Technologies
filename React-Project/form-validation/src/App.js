@@ -1,12 +1,13 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import Form from "./component/form.component";
+import NewValidForm from "./component/new";
+import ValidForm from "./component/ValidForm";
 
 function App() {
   return (
     <div className="ReactFormApp">
-      <Form />
+      {/* <ValidForm /> */}
+      <NewValidForm />
     </div>
   );
 }
